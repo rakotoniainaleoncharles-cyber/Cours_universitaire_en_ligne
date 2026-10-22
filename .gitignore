@@ -1,0 +1,29 @@
+﻿# Python / Django
+__pycache__/
+*.py[cod]
+*.log
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Bases de données locales et sauvegardes
+*.sqlite3
+*.sql
+*.dump
+
+# React / Node.js
+node_modules/
+dist/
+build/
+
+# Fichiers sensibles et temporaires
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+
+# Fichiers téléversés par les utilisateurs - conservés localement
+backend/media/
